@@ -36,6 +36,8 @@ module.exports = {
     docsDir: "",
     editLinkText: "",
     lastUpdated: false,
+    search: true,
+    searchMaxSuggestions: 5,
     nav: [
       {
         text: "Guide",
@@ -46,6 +48,22 @@ module.exports = {
         link: "/config/",
       },
       {
+        text: "Cypress",
+        link: "/cypress/",
+      },
+      {
+        text: "Rest Assured",
+        link: "/rest-assured/",
+      },
+      {
+        text: "Spring Boot",
+        link: "/spring-boot/",
+      },
+      {
+        text: "Story Mapping",
+        link: "/story-mapping/",
+      },
+      {
         text: "GitHub",
         link: "https://github.com/kaxiu008",
       },
@@ -53,28 +71,37 @@ module.exports = {
     sidebar: {
       "/guide/": [
         {
+          title: "Guide",
+          collapsable: false,
+          sidebarDepth: 2,
+          children: ["", "using-vue"],
+        },
+      ],
+      "/cypress/": [
+        {
           title: "Cypress",
           collapsable: false,
           sidebarDepth: 2,
-          children: [
-            "",
-            "using-vue",
-            "using-cypress",
-            ["using-spring-boot", "test"],
-          ],
+          children: ["", "using-cypress"],
         },
+      ],
+      "/rest-assured/": [
         {
-          title: "Rest-Assured",
+          title: "Rest Assured",
           collapsable: false,
           sidebarDepth: 2,
-          children: ["", "using-rest-assured"],
+          children: ["", "using-rest-assured", "bdd", "code-segment"],
         },
+      ],
+      "/spring-boot/": [
         {
           title: "Spring Boot",
           collapsable: false,
           sidebarDepth: 2,
           children: ["using-spring-boot"],
         },
+      ],
+      "/story-mapping/": [
         {
           title: "Story Mapping",
           collapsable: false,
