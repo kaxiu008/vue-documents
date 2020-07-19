@@ -2,7 +2,17 @@
 sidebar: auto
 ---
 
-# Config
+# How to style the document
+
+## bold
+
+## code
+
+## running code
+
+## hyperlink
+
+## tag the documentation
 
 ## foo
 
