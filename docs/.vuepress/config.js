@@ -44,10 +44,6 @@ module.exports = {
         link: "/guide/",
       },
       {
-        text: "Config",
-        link: "/config/",
-      },
-      {
         text: "Cypress",
         link: "/cypress/",
       },
