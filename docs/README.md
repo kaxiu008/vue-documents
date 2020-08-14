@@ -8,7 +8,7 @@ features:
   - title: A Manager's Recepie
     details: How to be a great manager and a great leader, here has everything you need to know and how you can practice knowledge on your day-to-day job.
   - title: Customer-centric Testing
-    details: With product management, user experience, and devOps kick in, what needs to be included in the testing envolving as well. Customer-centric testing is about all of them.
+    details: what needs to be included in the testing keep envolving when orgnizations started to apply product management, user experience, and devOps. Customer-centric testing is about all of them.
   - title: Domain Driven Design
     details: Want to build an API that customer loves, or you won't hate? Here's some basic concepts and some techinical notes from my own experience.
   - title: Product Management
