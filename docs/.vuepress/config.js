@@ -44,24 +44,32 @@ module.exports = {
         link: "/guide/",
       },
       {
-        text: "Cypress",
-        link: "/cypress/",
+        text: "The Manager's Recepie",
+        link: "/manager-recepie/",
       },
       {
-        text: "Rest Assured",
-        link: "/rest-assured/",
+        text: "Customer-centric Testing",
+        link: "/customer-centric-testing/",
       },
       {
-        text: "Spring Boot",
-        link: "/spring-boot/",
+        text: "Domain Driven Design", //This title need to update later
+        link: "/development-devops/",
       },
       {
-        text: "Story Mapping",
-        link: "/story-mapping/",
+        text: "Product Management",
+        link: "/product-management/",
+      },
+      {
+        text: "Book List",
+        link: "/book-list/",
       },
       {
         text: "GitHub",
         link: "https://github.com/kaxiu008",
+      },
+      {
+        text: "Find me",
+        link: "https://twitter.com/JackieWang7",
       },
     ],
     sidebar: {
@@ -73,33 +81,39 @@ module.exports = {
           children: ["", "using-vue"],
         },
       ],
-      "/cypress/": [
+      "/manager-recepie/": [
         {
           title: "Cypress",
           collapsable: false,
           sidebarDepth: 2,
-          children: ["", "using-cypress"],
+          children: ["", "a-starter-kit"],
         },
       ],
-      "/rest-assured/": [
+      "/customer-centric-testing/": [
         {
-          title: "Rest Assured",
+          title: "Customer-centric Testing",
           collapsable: false,
           sidebarDepth: 2,
-          children: ["", "using-rest-assured", "bdd", "code-segment"],
+          children: [
+            "",
+            "using-cypress",
+            "using-rest-assured",
+            "bdd",
+            "code-segment",
+          ],
         },
       ],
-      "/spring-boot/": [
+      "/develoment-devops/": [
         {
-          title: "Spring Boot",
+          title: "Domain Driven Design",
           collapsable: false,
           sidebarDepth: 2,
           children: ["using-spring-boot"],
         },
       ],
-      "/story-mapping/": [
+      "/product-management/": [
         {
-          title: "Story Mapping",
+          title: "Product Management",
           collapsable: false,
           sidebarDepth: 2,
           children: ["using-story-mapping"],
