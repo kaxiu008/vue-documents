@@ -103,12 +103,18 @@ module.exports = {
           ],
         },
       ],
-      "/develoment-devops/": [
+      "/development-devops/": [
         {
           title: "Domain Driven Design",
           collapsable: false,
           sidebarDepth: 2,
-          children: ["using-spring-boot"],
+          children: [
+            "",
+            "domain-driven-design",
+            "api-style-guide",
+            "api-strategies",
+            "using-spring-boot",
+          ],
         },
       ],
       "/product-management/": [
@@ -116,7 +122,7 @@ module.exports = {
           title: "Product Management",
           collapsable: false,
           sidebarDepth: 2,
-          children: ["using-story-mapping"],
+          children: ["", "using-story-mapping"],
         },
       ],
     },
